@@ -17,9 +17,9 @@ let coin = {
     toHTML: function() {
         let image = document.createElement('img');
         if( this.state === 0){
-            image.src = "assets/TSR_Sonic.webp"
+            image.src = "assets/coin01.jpg"
         } else {
-            image.src = "assets/TSR_Tails.webp"
+            image.src = "assets/1960-d-memorial-r.jpeg"
         }
         
         /* 3. Set the properties of this image element to show either face-up
